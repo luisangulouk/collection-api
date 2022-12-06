@@ -1,11 +1,11 @@
 {
-    "name": "collection-api",
+    "name": "app",
     "version": "1.0.0",
     "description": "Collection api",
     "main": "index.js",
     "scripts": {
       "start": "NODE_ENV=production node server/index.js",
-      "start:docker": "docker build . -t collection-factory -f ./Dockerfile && docker run -p 8787:8080 -d collection-factory"
+      "start:docker": "docker build . -t app -f ./Dockerfile && docker run -p 8787:8080 -d app"
     },
     "repository": {
       "type": "git",
